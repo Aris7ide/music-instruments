@@ -10,13 +10,27 @@ import com.music.model.StringInstrument;
 public class Main {
     static void main(String[] args) {
 
-        WindInstrument flauta = new WindInstrument(150, "Flauta");
+        System.out.println("Inicio del programa");
+
+        System.out.println("Creando primera flauta:");
+        WindInstrument flauta1 = new WindInstrument(150,"Flauta 1");
+
+        System.out.println("Creando segunda flauta");
+        WindInstrument flauta2 = new WindInstrument(160,"Flauta 2");
+
+        // It only shows the static block once, showing that once called it doesn't show again.
+
+        // Showing how static block and static member works
+        //WindInstrument.showInfo();
+
+        // Execution of the exercise
+        /*WindInstrument flauta = new WindInstrument(150, "Flauta");
         PercussionInstrument tambor = new PercussionInstrument(170,"tambòr");
         StringInstrument violi = new StringInstrument(290,"Violì");
 
         flauta.play();
         tambor.play();
-        violi.play();
+        violi.play();*/
 
     }
 }

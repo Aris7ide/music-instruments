@@ -2,6 +2,10 @@ package com.music.model;
 
 public class WindInstrument extends Instrument {
 
+    {
+        System.out.println("--> Creando un instrumento de viento");
+    }
+
     // Bloque estatico
     static {
         System.out.println("--> [WindInstrument]: Clase cargada en memoria.");

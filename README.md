@@ -15,5 +15,8 @@ JAVA
 
 ## Execucion
 - He creado una clase abstracta Instrument y las 3 subclases.
-- He implementado el metodo play()
-- He creado el Main a donde he creado cada objeto
+- Accediendo por primera vez a un metodo de la subclase WindInstrument sale el bloque estatico por primero, estè donde estè.
+- Llamando al metodo estatico showInfo() sale llamando el metodo directamente de la clase sin necesidad de llamar al objeto creado.
+- He implementado el metodo play() en la superclase Instrument y en las subclasses usando el @override.
+- He creado el Main, creado un par de instrumentos y llamados todos los metodos. 
+- Conceptos: Bloque estatico y metodo estatico, @override y clases y subclases.

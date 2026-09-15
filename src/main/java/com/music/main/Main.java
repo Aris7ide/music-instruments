@@ -18,9 +18,7 @@ public class Main {
         System.out.println("Creando segunda flauta");
         WindInstrument flauta2 = new WindInstrument(160,"Flauta 2");
 
-        // It only shows the static block once, showing that once called it doesn't show again.
-
-        // Showing how static block and static member works
+        WindInstrument.showInfo();
         WindInstrument.showInfo();
 
         WindInstrument flauta = new WindInstrument(150, "Flauta");

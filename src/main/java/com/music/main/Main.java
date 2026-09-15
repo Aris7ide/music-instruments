@@ -21,16 +21,15 @@ public class Main {
         // It only shows the static block once, showing that once called it doesn't show again.
 
         // Showing how static block and static member works
-        //WindInstrument.showInfo();
+        WindInstrument.showInfo();
 
-        // Execution of the exercise
-        /*WindInstrument flauta = new WindInstrument(150, "Flauta");
+        WindInstrument flauta = new WindInstrument(150, "Flauta");
         PercussionInstrument tambor = new PercussionInstrument(170,"tambòr");
         StringInstrument violi = new StringInstrument(290,"Violì");
 
         flauta.play();
         tambor.play();
-        violi.play();*/
+        violi.play();
 
     }
 }
